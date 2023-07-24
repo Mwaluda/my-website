@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .item1 { grid-area:header;}
+            .item2 { grid-area: menu;}
+            .item3 { grid-area: main;}
+            .item4 { grid-area: footer;}
+             
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'menu main main main main main' 
+    'menu footer footer footer footer footer';
+    gap:5px ;
+    background-color: wheat;
+    padding: 10px;
+}
+.grid-container > div {
+    background-color: gray;
+    text-align: center;
+    padding:10px;
+    font-size: 30px;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="item1">PAWN SHOP 22</div>
+            <div class="item2">
+            <ul style = "list-style-type: none; float: left;">
+                <li><a href="mwaluda.html"> HOME</a></li><br>
+                <li><a href="bryteselectronics.html" >ELECTRONICS</a></li><br>
+                <li><a href=" bryteshomeappliances.html">HOME APPLIANCES</a></li><br>
+                <li><a href="brytesfurniture.html">FUNITURES</a></li>
+            </ul>
+               
+            </div>
+            <div class="item3"> 
+                <p>Are you having problems disposing your old expensive stuffs, things that are just too outdated but also<br>
+                    too expensive to give them away? so you end upkeeping them for you have no where to sell them at a relative<br>
+                    fair price? Or maybe you want to sell the ones you currently have to fund yourself , Or maybe you're in a financial<br>
+                    situation and you would like to fix but selling something you  own?..The hustle is finally over, the saviour is here<br>
+                    i got you covered.In our pawn shop you get to sell or buy things at a cheaper and fair price.</p>
+                    <h><ins><b>RULES AND REGULATIONS</b></ins></h> dence of ownership</li>
+                    <li>We do not buy from kid, you must be over 18 and in possession of a national ID</li>
+                    <li>We dont accept over damaged goods, things that are beyond repair</li>
+                    <li>We dont accept credit cards only BTC,M-PESA,PAYPAL.CASH</li>
+                    </ol>
+                    </p>
+                    <h style="text-align:center; font-size: 30px; color:red;">NB</h>
+                    <p> JOB ALERT!!! Yyou get a commission of 4% for every item a cusstomer you brought bought</p>
+            </div>
+            <div class="item4">footer</div>
+        </div>
+    </body>
+</html>
